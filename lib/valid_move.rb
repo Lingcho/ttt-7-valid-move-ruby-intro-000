@@ -7,6 +7,7 @@ end
 def position_taken?(board, index_number)
   position = board[index_number]
   if index_number.!between?(0, 9)
+    puts "error"
   elsif position == " " || position == "" || position == nil
     puts "Ok c'est libre"
   elsif position == "X" || position == "O"
