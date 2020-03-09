@@ -1,6 +1,6 @@
 # code your #valid_move? method here
-def valid_move?(array, index)
-  if position_taken?(array, index)
+def valid_move?(board, index_number)
+  if position_taken?(board, index_number)
   end
 end
 
