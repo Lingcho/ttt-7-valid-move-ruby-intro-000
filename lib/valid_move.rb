@@ -1,7 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(array, index)
   if position_taken?(array, index)
-  else
   end
 end
 
@@ -9,7 +8,7 @@ end
 def position_taken?(array, index)
     position = array[index]
     if position == " " || position == "" || position == nil
-    else 
+    else
       true
     end
 end
