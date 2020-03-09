@@ -9,7 +9,9 @@ end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 def position_taken?(board, index_number)
   position = board[index_number]
-  if position == " " || position == "" || position == nil
+  if index_number.between?(1, 9)
+  false
+  elsif position == " " || position == "" || position == nil
     false
   elsif index_number.between?(1, 9)
     false
