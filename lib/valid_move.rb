@@ -11,7 +11,7 @@ def position_taken?(board, index_number)
   position = board[index_number]
 
 if position == " " || position == "" || position == nil && index_number.between?(0, 9)
-  
+
   elsif position == "X" || position == "O"
     false
   else
