@@ -7,7 +7,7 @@ end
 def position_taken?(board, index_number)
   position = board[index_number]
 
-elsif position == " " || position == "" || position == nil && index_number.between(0, 9)
+if position == " " || position == "" || position == nil && index_number.between(0, 9)
     puts "Ok c'est libre"
   elsif position == "X" || position == "O"
     puts "Non c'est pris"
