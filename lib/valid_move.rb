@@ -6,9 +6,8 @@ end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 def position_taken?(board, index_number)
   position = board[index_number]
-  if index_number.!between?(0, 9)
-    puts "error"
-  elsif position == " " || position == "" || position == nil
+
+elsif position == " " || position == "" || position == nil && index_number.between(0, 9)
     puts "Ok c'est libre"
   elsif position == "X" || position == "O"
     puts "Non c'est pris"
