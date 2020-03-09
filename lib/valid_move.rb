@@ -11,7 +11,8 @@ def position_taken?(board, index_number)
     puts "Ok c'est libre"
   elsif position == "X" || position == "O"
     puts "Non c'est pris"
-
+  else
+    false
   end
 end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
