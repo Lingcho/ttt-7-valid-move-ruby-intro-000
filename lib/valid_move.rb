@@ -1,6 +1,7 @@
 # code your #valid_move? method here
 def valid_move?(board, index_number)
   if position_taken?(board, index_number)
+    true
   else
     false
   end
