@@ -9,5 +9,7 @@ end
 def position_taken?(array, index)
     position = array[index]
     if position == " " || position == "" || position == nil
+    else 
+      true
     end
 end
