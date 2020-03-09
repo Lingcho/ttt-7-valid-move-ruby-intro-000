@@ -12,7 +12,7 @@ if position == " " || position == "" || position == nil && index_number.between?
   elsif position == "X" || position == "O"
     puts "Non c'est pris"
   else
-    "Errerrueurue"
+    puts "Errerrueurue"
   end
 end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
