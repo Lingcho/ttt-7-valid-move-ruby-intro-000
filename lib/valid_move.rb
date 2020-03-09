@@ -13,8 +13,6 @@ def position_taken?(board, index_number)
   false
   elsif position == " " || position == "" || position == nil
     false
-  elsif index_number.between?(1, 9)
-    false
   elsif position == "X" || position == "O"
     true
   end
