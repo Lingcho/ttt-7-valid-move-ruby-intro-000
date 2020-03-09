@@ -13,6 +13,7 @@ def position_taken?(board, index_number)
     puts "Non c'est pris"
   end
 end
-board = [" ", " ", "X", " ", " ", " ", " ", "O", " "]
-index = 5
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+index = 4
+
 valid_move?(board, index)
