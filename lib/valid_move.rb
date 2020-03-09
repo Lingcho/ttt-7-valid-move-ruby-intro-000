@@ -13,3 +13,5 @@ def position_taken?(board, index_number)
     puts "Non c'est pris"
   end
 end
+
+valid_move?
